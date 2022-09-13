@@ -1,0 +1,57 @@
+body{
+    background-image: url("background.jpeg");
+    
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    text-align:justify;
+}
+
+table{
+    width: 80%;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd; 
+}
+th,td{
+    text-align:left;
+    padding: 8px;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color:blueviolet;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:bisque;
+}
+
+#main{
+    margin: 0;
+    padding: 5px;
+}
+
+footer{
+   text-align: center;
+   font-size: small;
+   padding: 2px;
+   left: 0;
+   background-color: rgb(180, 158, 133);
+}
+
+#me{
+    text-align: center;
+}
+.red-bold{
+    color:red;
+    font-weight: bold;
+}
+
+
+
